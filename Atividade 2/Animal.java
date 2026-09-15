@@ -24,7 +24,7 @@ public class Animal {
                 this.fome = 0;
             }
 
-            System.out.println(nome + "foi Alimentado com " + quantidade + " unidades de comida.");
+            System.out.println(nome + " foi Alimentado com " + quantidade + " unidades de comida.");
 
         }
         passarTempo();
@@ -55,7 +55,7 @@ public class Animal {
             fome = 100;
         }
 
-        System.out.println(nome + "Dormiu!!");
+        System.out.println(nome + " Dormiu!!");
 
         passarTempo();
     }
