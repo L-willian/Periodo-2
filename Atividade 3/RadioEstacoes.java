@@ -8,12 +8,14 @@ public class RadioEstacoes {
     private boolean tocando;
 
     public RadioEstacoes(Estacao[] estacoes) {
-        volume = 50;
-        ligado = false;
-        estacaoAtual = 0;
-        musicaAtual = 0;
+    this.estacoes = estacoes;
 
-    }
+    this.volume = 50;
+    this.ligado = false;
+    this.tocando = false;
+    this.estacaoAtual = 0;
+    this.musicaAtual = 0;
+}
 
     public static  class Musica {
         public String titulo;
