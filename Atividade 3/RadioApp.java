@@ -14,9 +14,15 @@ public class RadioApp {
                 new RadioEstacoes.Musica("Jesus chorou", "Racionais mc", "HipHop", 228)
         };
 
+        RadioEstacoes.Musica[] funk = {
+                new RadioEstacoes.Musica("Milionarios", "MC Hariel", "Funk", 328),
+                new RadioEstacoes.Musica("Amassa a placa", "MC Kevin", "Funk", 288)
+        };
+
         RadioEstacoes.Estacao[] estacoes = {
                 new RadioEstacoes.Estacao("89.1 FM", "Forro", forro),
-                new RadioEstacoes.Estacao("95.7 FM", "HipHop", hiphop)
+                new RadioEstacoes.Estacao("95.7 FM", "HipHop", hiphop),
+                new RadioEstacoes.Estacao("157.7 FM", "Funk", funk)
         };
 
         RadioEstacoes radio = new RadioEstacoes(estacoes);
@@ -35,7 +41,7 @@ public class RadioApp {
             System.out.println("6 - Próxima música");
             System.out.println("7 - Ver status");
             System.out.println("8 - Sair");
-            System.out.print("Escolha uma opção: ");
+            System.out.println("Escolha uma opção: ");
 
             opcao = scanner.nextInt();
 
